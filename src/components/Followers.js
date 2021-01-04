@@ -54,6 +54,7 @@ const Wrapper = styled.article`
   grid-template-rows: repeat(auto-fill, minmax(45px, 1fr));
   gap: 1.25rem 1rem;
   padding: 1rem 2rem;
+  overflow: auto;
  }
  article {
   transition: var(--transition);
